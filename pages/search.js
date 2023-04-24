@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from 'next/head';
 import Header from '../components/Header';
-import { API_KEY, CONTEXT_KEY } from '../.env.local';
+import { API_KEY, CONTEXT_KEY } from '../.env';
 import Response from '../Response';
 import { useRouter } from 'next/router';
 import SearchResults from '../components/SearchResults';
